@@ -1,0 +1,1 @@
+stages: - lint - test lint: stage: lint image: python:3.8 script: - pip install pylint - pylint hello.py || true test: stage: test image: python:3.8 script: - python hello.py
