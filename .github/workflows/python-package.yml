@@ -39,3 +39,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+- name: Analysing the code with pylint
+      run: | 
+          pylint
+        - name: execute py script # run file
+        run: |
+          hello.py
